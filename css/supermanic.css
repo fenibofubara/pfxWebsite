@@ -1,0 +1,41 @@
+ .logo-resize-bg{
+    height: 40%;
+    width: 40%;
+  }
+
+  .bg-brown{
+  	background-color: #AE9242;
+  }
+  .text-brown{
+  	color: #AE9242 !important; 
+  }
+
+  .text-green{
+  	color: #346230 !important; 
+  }
+
+  .text-whit{
+  	color: white !important;
+  }
+
+  .bg-green{
+  	background-color: #346230 !important;
+  }
+
+  .ph{
+  	height: 150px
+  }
+
+  div.feature-box-info h4{
+  	color: #AE9242 !important;
+  }
+  div.appear-animation h3{
+  	color: #AE9242 !important;
+  }
+  div.appear-animation p{
+  	text-align: justify;
+
+  }
+  ul.list-icons p a{
+  	font-weight: bolder !important;
+  }
