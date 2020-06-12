@@ -33,7 +33,7 @@
 		<link rel="stylesheet" href="css/theme-elements.css">
 		<link rel="stylesheet" href="css/theme-blog.css">
 		<link rel="stylesheet" href="css/theme-shop.css">
-		
+		<link rel="stylesheet" href="css/supermanic.css">
 		<!-- Demo CSS -->
 
 
@@ -108,49 +108,78 @@
 										<div class="box-content">
 										<!-- 	<h4 class="color-primary font-weight-semibold text-4 text-uppercase mb-3">Register An Account</h4> -->
 												<img src="img/supermanic/logo.png" class="img-fluid mx-auto d-block" style="height: 70px">
-											<form action="https://preview.oklerthemes.com/" id="frmSignUp" method="post" class="needs-validation">
+											<form action="#" method="post" class="needs-validation">
+													<div class="form-row">
+													
+														
+														<h4 class="font-weight-bold text-dark">Sponsor:      <span class="text-green">PFX-MAIN</span></h4>
+														
+													
+													
+												</div>
 														<div class="form-row">
 													<div class="form-group col-lg-6">
-														<label class="font-weight-bold text-dark text-2">Username</label>
-														<input type="text" value="" class="form-control form-control-lg" required>
+														<label class="font-weight-bold text-brown text-3"> Create Login Information</label>
+														<input type="text" value="" class="form-control form-control-lg" placeholder="Username" required>
 													</div>
 														<div class="form-group col-lg-6">
-														<label class="font-weight-bold text-dark text-2">Full name</label>
-														<input type="text" value="" class="form-control form-control-lg" required>
+														<label class="font-weight-bold text-white text-2 ">1</label>
+														<input type="password" value="" class="form-control form-control-lg" placeholder="password" required>
 													</div>
 												</div>
 												<div class="form-row">
 													<div class="form-group col-lg-6">
-														<label class="font-weight-bold text-dark text-2">Phone</label>
-														<input type="text" value="" class="form-control form-control-lg" required>
+													<label class="font-weight-bold text-brown text-3"> Personal Information</label>
+														<input type="text" value="" class="form-control form-control-lg" placeholder="Username" required>
 													</div>
 														<div class="form-group col-lg-6">
-														<label class="font-weight-bold text-dark text-2">E-mail Address</label>
-														<input type="text" value="" class="form-control form-control-lg" required>
+														<label class="font-weight-bold text-white text-2">L</label>
+														<input type="text" value="" class="form-control form-control-lg" placeholder="lastname" required>
 													</div>
 												</div>
 												<div class="form-row">
 													<div class="form-group col-lg-6">
-														<label class="font-weight-bold text-dark text-2">Password</label>
-														<input type="password" value="" class="form-control form-control-lg" required>
+													<!-- 	<label class="font-weight-bold text-white text-2">Email</label> -->
+														<input type="mail" value="" class="form-control form-control-lg" placeholder="Email" required>
 													</div>
 													<div class="form-group col-lg-6">
-														<label class="font-weight-bold text-dark text-2">Re-enter Password</label>
-														<input type="password" value="" class="form-control form-control-lg" required>
+														<!-- <label class="font-weight-bold text-white text-2">Mobile</label> -->
+														<input type="text" value="" class="form-control form-control-lg" placeholder="mobile" required>
 													</div>
 												</div>
 												<div class="form-row">
-													<div class="form-group col-lg-9">
-														<div class="custom-control custom-checkbox">
+													<select data-msg-required="Please select country" class="form-control fen" name="subject" id="subject" required>
+											<option value="">Select Country</option>
+											<option value="Option 1">Nigeria</option>
+											<option value="Option 2">Ghana</option>
+											<option value="Option 3">South Africa</option>
+											<option value="Option 4">America</option>
+										</select>
+												</div>
+												<div class="form-row">
+													<div class=	"form-group col-lg-9">	
+														<a href="t&c.html" style="text-decoration: none">Terms & Condition</a>
+															<div class="custom-control custom-checkbox">
 															<input type="checkbox" class="custom-control-input" id="terms">
 															<label class="custom-control-label text-2" for="terms">I have read and agree to the <a href="#">terms of service</a></label>
 														</div>
+													</div>
+										
+													
+													     <div class="form-group">
+                            <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                            <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                            <div class="help-block with-errors"></div>
+                        </div>
+								<div class="form-group col-lg-9">
+								
 													</div>
 													<div class="form-group col-lg-3">
 														<input type="submit" value="Register" class="btn btn-primary btn-modern float-right" data-loading-text="Loading...">
 													</div>
 												</div>
-											</form>
+
+                   			</form>
 										</div>
 									</div>
 
@@ -183,6 +212,7 @@
 		
 		<!-- Theme Base, Components and Settings -->
 		<script src="js/theme.js"></script>
+		 <script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<!-- Current Page Vendor and Views -->
 		<script src="js/views/view.contact.js"></script>
